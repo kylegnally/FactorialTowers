@@ -22,6 +22,12 @@ namespace cis237_inclass2
                 // 33 will overflow and give a negative answer
                 Console.WriteLine(factorial.SolveFactorial(5));
             }
+            else
+            {
+                // Do Tower of Hanoi
+                TowerOfHanoi hanoi = new TowerOfHanoi();
+                hanoi.SolveHanoi();
+            }
         }
     }
 }
